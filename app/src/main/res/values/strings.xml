@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pokemon</string>
+    <string name="text_inicial">Vamos nos encontrar primeiro?</string>
+    <string name="text_seu_nome">Primeiro precisamos saber seu nome…</string>
+    <string name="text_hello">Olá Trainer Dev! (Nome)</string>
+    <string name="text_pokemon">…agora diga-nos qual é o seu tipo de Pokémon favorito</string>
+
+</resources>

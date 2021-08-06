@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".CadastroNomeActivity">
+
+    <TextView
+        android:id="@+id/text_mensagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/text_inicial"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="@string/text_seu_nome"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:inputType="text"/>
+    <ImageView
+        android:id="@+id/btn_next"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/next"
+        android:layout_gravity="center"
+        android:layout_marginTop="240dp"/>
+
+</LinearLayout>
