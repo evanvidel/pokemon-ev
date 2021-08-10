@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.axweb.pokemon.R
 import com.axweb.pokemon.model.Result
 import com.squareup.picasso.Picasso
+import kotlinx.android.synthetic.main.item_list_type.view.*
 import kotlinx.android.synthetic.main.pokemon_list_item.view.*
 
 

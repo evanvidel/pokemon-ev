@@ -12,11 +12,11 @@ data class Pokemon(
     val featured: String,
     val height: Int,
     val id: Int,
-    val name: String,
+    val name: String = "",
     val number: String,
     val slug: String,
     val thumbnailAltText: String,
-    val thumbnailImage: String,
+    val thumbnailImage: String = "",
     val type: List<String>,
     val weakness: List<String>,
     val weight: Double
